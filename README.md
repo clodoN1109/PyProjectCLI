@@ -26,8 +26,11 @@
 
 ### ARCHITECTURE
 ##
-![image](https://github.com/user-attachments/assets/85e31b69-dc5b-477d-9283-1fa92b089192)
+![image](https://github.com/user-attachments/assets/ada4d63c-65dd-4354-a099-f3752773e3b7)
+
 
 ### ENGINEERING
 ##
+![image](https://github.com/user-attachments/assets/5121064f-ae3c-4358-9a62-7f4f37caa0d2)
+![image](https://github.com/user-attachments/assets/1df8a78d-9a14-4ed0-957b-bc7736e894bc)
 
