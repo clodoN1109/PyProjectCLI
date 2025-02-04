@@ -12,7 +12,7 @@
 - [License](##license)  
 - [Architecture Design](##architecture)  
 - [Engineering Design](##engineering)  
-- [Engineering Design](##engineering)  
+- [Economical Design](##economical)  
 
 ## INSTALLATION
 
