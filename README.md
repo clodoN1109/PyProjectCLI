@@ -10,8 +10,9 @@
 - [Usage](##usage)  
 - [Contributing](##contributing)  
 - [License](##license)  
-- [Architecture](##architecture)  
-- [Engineering](##engineering)  
+- [Architecture Design](##architecture)  
+- [Engineering Design](##engineering)  
+- [Engineering Design](##engineering)  
 
 ## INSTALLATION
 
@@ -60,14 +61,16 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.  
 
 
-## ARCHITECTURE
+## ARCHITECTURE DESIGN
 
 ![image](https://github.com/user-attachments/assets/ada4d63c-65dd-4354-a099-f3752773e3b7)
 
 
-## ENGINEERING
+## ENGINEERING DESIGN
 
 ![image](https://github.com/user-attachments/assets/5121064f-ae3c-4358-9a62-7f4f37caa0d2)
 ##
 ![image](https://github.com/user-attachments/assets/1df8a78d-9a14-4ed0-957b-bc7736e894bc)
 
+## ECONOMICAL DESIGN
+![image](https://github.com/user-attachments/assets/ae0aeed2-eb25-46a6-831a-eda83f32f5df)
