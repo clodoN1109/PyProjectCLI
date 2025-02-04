@@ -1,4 +1,4 @@
-from mypythonproject.cli.utils import *
+from mypythonprojectcli.cli.utils import *
 
 def mynewfunction():
     return

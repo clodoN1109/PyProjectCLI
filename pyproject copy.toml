@@ -3,10 +3,10 @@ requires = ["hatchling", "toml"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/mypythonprojectcli"]
+packages = ["src/PROJECT_NAME"]
 
 [project]
-name = "mypythonprojectcli"
+name = "PROJECT_NAME"
 version = "1.0.0.0"
 authors = [
     {name="Clodomir Vianna", email="clovianna@gmail.com"},
@@ -57,13 +57,13 @@ secodary_color = "#FFFFFF"
 accent_color = "#FFFFFF"
 
 [tool.hatch.build.targets.wheel.hooks.custom]
-path = "src/mypythonprojectcli/cli/prebuild.py"
+path = "src/PROJECT_NAME/cli/hatch_build.py"
 
 [tool.hatch.build.targets.wheel.force-include]
-"./src/header.json" = "src/mypythonprojectcli/cli/header.json"
-"./src/modules.json" = "src/mypythonprojectcli/cli/modules.json"
-"./src/help.json" = "src/mypythonprojectcli/cli/help.json"
-"./src/template.json" = "src/mypythonprojectcli/cli/template.json"
+"./src/header.json" = "src/PROJECT_NAME/cli/header.json"
+"./src/modules.json" = "src/PROJECT_NAME/cli/modules.json"
+"./src/help.json" = "src/PROJECT_NAME/cli/help.json"
+"./src/template.json" = "src/PROJECT_NAME/cli/template.json"
 
 [project.scripts]
-mypythonprojectcli = "mypythonprojectcli.__cli__:cli"
+PROJECT_NAME = "PROJECT_NAME.__cli__:cli"

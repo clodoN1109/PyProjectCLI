@@ -21,6 +21,8 @@ import pyfiglet
 from IPython.terminal.prompts import Prompts, Token
 import json
 
+__package__ = 'mypythonprojectcli'
+
 state = {
                     'selected_section': '',
                     'selected_module':{'':''},
@@ -28,8 +30,6 @@ state = {
                     'modules':{},
                     'help':{},
                 }
-
-__package__ = "mypythonproject"
 
 def pymodularcli():
     
@@ -203,7 +203,7 @@ def tag(data_string, offset=[0,0], color_hex=None, padding = 1):
         reset_code = ""
 
     # Print the tag with the specified color and position
-    print_at_position(f"{color_code}{' ' * 1}{'\u005F' * tw}", row, col)
+    print_at_position(f"{color_code}{' ' * 1}{'_' * tw}", row, col)
     print_at_position(f"{rvb}{hp}{data_string}{hp}{lvb}", row + 1, col)
     print_at_position(f"{' ' * 1}{'‾' * tw}{reset_code}", row + 2, col)
 
@@ -277,7 +277,7 @@ def tags():
     project_section = metadata(__package__)
     # pkg_author = project_section.get("Author", next((value for key, value in project_section.items() if key.lower() == "author-email"), "Unknown Email")).strip()
     # pkg_description = project_section.get("Summary", "No Description Available").strip()
-    license = f"{project_section.get("License", "-").strip().upper()}" 
+    license = f"{project_section.get('License', '-').strip().upper()}" 
     list = {
         'python_version' : f"Python {sys.version.split(" ")[0].strip()}",
         'OS' : f"{platform.platform()}".strip().upper(),

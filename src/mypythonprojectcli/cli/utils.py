@@ -72,9 +72,10 @@ def decorate_all_functions_within_module(decorator, global_scope):
     #     if inspect.isfunction(obj):
     #         print(f"Function: {name}, Module: {getattr(obj, '__module__', None)}")
 
+    module_name = global_scope['__name__']
     filtered_globals = {
         name: obj for name, obj in global_scope.items()
-        if inspect.isfunction(obj) and getattr(obj, "__module__", None) == "mypythonproject.sample_module.sample_module"
+        if inspect.isfunction(obj) and getattr(obj, "__module__", None) == module_name
     }
 
     current_globals = filtered_globals

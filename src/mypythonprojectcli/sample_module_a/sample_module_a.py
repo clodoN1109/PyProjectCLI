@@ -1,6 +1,4 @@
-from mypythonproject.cli.utils import *
-
-# @show_signature_if_no_args
+from mypythonprojectcli.cli.utils import *
 
 def sample_function(arg1, arg2, *args, **kwargs):
     """
