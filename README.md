@@ -1,4 +1,11 @@
-# PY PROJECT CLI 
+#
+![image](https://github.com/user-attachments/assets/42a1eb4d-f0a8-4edc-a171-2ef1d6b50161)
+
+  <a href="https://github.com/clodoN1109/PyProjectCLI/blob/main/LICENSE" style="margin: 2px;">
+    <img alt="License" src="https://img.shields.io/badge/License-MIT-f5de53?&color=f5de53" style="display: inline-block; vertical-align: middle;"/>
+  </a>
+<hr>
+
 ## Customizable CLI for Python library projects. 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
